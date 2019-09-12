@@ -1,3 +1,12 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2019, 9:42:31 PM
+    Author     : Amir
+*/
 
 /* 
 html5doctor.com Reset Stylesheet
@@ -112,20 +121,19 @@ input, select {
     vertical-align:middle;
 }
 
+/*****  My Style sheet starts here, the perivois part is just set all web-browser as standard*******/
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Sep 11, 2019, 10:47:46 AM
-    Author     : Amir
-*/
+.calc-section{
+    
+    margin: 50px calc(50% - 200px);
+    
+}
 
-
-
-
+p{
+    text-align: center;
+        
+}
+/*generate a two keys for the grid design because */
 .double-size {
     grid-area: key1;
 }
@@ -136,8 +144,8 @@ and open the template in the editor.
 
 
 .grid-container {
-  width:400px;
   display: grid;
+  width:400px;
   grid-template-areas:
                 'key2 key2 key2 key2'
                 '. . . .'
@@ -156,12 +164,12 @@ and open the template in the editor.
 
   width: 100px;
   height: 60px;
-  color: white;
-  background-color: #B2B0B0;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0px 20px;
+  background-color: #B2B0B0;
   font-size: 40px;
-  
+  color: white;
+ 
 
 }
 
@@ -194,12 +202,12 @@ and open the template in the editor.
 
 }
 
-.grid-container .decor1{
+.grid-container .key-prop1{
 
   background-color: #FDA25A;
 
 }
-.grid-container .decor2{
+.grid-container .key-prop2{
 
   background-color: #696060;
  
