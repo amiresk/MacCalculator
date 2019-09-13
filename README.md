@@ -8,4 +8,4 @@ My First attempt to design Max calculator with HTML5, CSS3
 - I need to read value of each <div> when I click on them (onClick)
   
   
-<img src="maccalc.jpg" alt="Mac Calulator" width="460" height="345">
+<img src="maccalc.JPG" alt="Mac Calulator" width="460" height="345">
