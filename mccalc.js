@@ -13,10 +13,6 @@ var displayDigit = document.getElementById('display');
 // access keys by class name
 var keyBtn = document.getElementsByClassName('key-digi');
 
-////access operator's keys by class name
-
-//var opBtn = document.getElementsByClassName('key-op');
-
 
 // update the screen and show the value on display
 var updateScreen = (clickObj) => {
@@ -96,7 +92,7 @@ var operationReg = (clickobj) =>{
             
             //store the digit from the screen to the buffer
             bufferReg = screenResult;         
-            // conver String to integer in order to divid the input to 100
+            // convert String to integer in order to divid the input to 100
             var num = parseInt(bufferReg);
             var str = num/100;
             bufferReg = str.toString();
