@@ -106,7 +106,20 @@ var operationReg = (clickobj) =>{
             bufferArray.push(bufferReg);
             bufferArray.push('*');
 
-            break;    
+            break;  
+            
+         case '+/-':
+            //store the digit from the screen to the buffer
+            bufferReg = screenResult;         
+            // conver String to integer in order to divid the input to 100
+            var num = parseInt(bufferReg);
+            var str = num * -1;
+            bufferReg = str.toString();
+            //set screen to 0 
+            screenResult = bufferReg;
+            displayDigit.innerText = screenResult;                
+
+            break;  
         
         case '=':
             // store the secong digit after storing operator in the last status
