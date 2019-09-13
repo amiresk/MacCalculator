@@ -111,13 +111,14 @@ var operationReg = (clickobj) =>{
          case '+/-':
             //store the digit from the screen to the buffer
             bufferReg = screenResult;         
-            // conver String to integer in order to divid the input to 100
+            // conver String to integer in order to multiply the input to -1 (to generate negetive number)
             var num = parseInt(bufferReg);
             var str = num * -1;
             bufferReg = str.toString();
             //set screen to 0 
             screenResult = bufferReg;
-            displayDigit.innerText = screenResult;                
+            displayDigit.innerText = screenResult;  
+            // we do not want to push it to the bufferArray until we click another operator buttton...
 
             break;  
         
