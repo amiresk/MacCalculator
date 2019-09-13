@@ -1,4 +1,4 @@
-# Mac-Calculator
+<h1>Mac-Calculator </h1>
 
 My First attempt to design Max calculator with HTML5, CSS3
 
@@ -7,4 +7,4 @@ My First attempt to design Max calculator with HTML5, CSS3
 - Next step to write java script to access my <div>s element which I will use as my button. 
 - I need to read value of each <div> when I click on them (onClick)
   
-
+  
